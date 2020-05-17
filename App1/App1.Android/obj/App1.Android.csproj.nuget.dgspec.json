@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ABDULLAH\\Source\\Repos\\App1\\App1\\App1.Android\\App1.Android.csproj": {}
+    "C:\\Users\\ABDULLAH\\Source\\Repos\\crowd-check-static-working\\App1\\App1.Android\\App1.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ABDULLAH\\Source\\Repos\\App1\\App1\\App1.Android\\App1.Android.csproj": {
+    "C:\\Users\\ABDULLAH\\Source\\Repos\\crowd-check-static-working\\App1\\App1.Android\\App1.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ABDULLAH\\Source\\Repos\\App1\\App1\\App1.Android\\App1.Android.csproj",
+        "projectUniqueName": "C:\\Users\\ABDULLAH\\Source\\Repos\\crowd-check-static-working\\App1\\App1.Android\\App1.Android.csproj",
         "projectName": "App1.Android",
-        "projectPath": "C:\\Users\\ABDULLAH\\Source\\Repos\\App1\\App1\\App1.Android\\App1.Android.csproj",
+        "projectPath": "C:\\Users\\ABDULLAH\\Source\\Repos\\crowd-check-static-working\\App1\\App1.Android\\App1.Android.csproj",
         "packagesPath": "C:\\Users\\ABDULLAH\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ABDULLAH\\Source\\Repos\\App1\\App1\\App1.Android\\obj\\",
+        "outputPath": "C:\\Users\\ABDULLAH\\Source\\Repos\\crowd-check-static-working\\App1\\App1.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid10.0": {
             "projectReferences": {
-              "C:\\Users\\ABDULLAH\\Source\\Repos\\App1\\App1\\App1\\App1.csproj": {
-                "projectPath": "C:\\Users\\ABDULLAH\\Source\\Repos\\App1\\App1\\App1\\App1.csproj"
+              "C:\\Users\\ABDULLAH\\Source\\Repos\\crowd-check-static-working\\App1\\App1\\App1.csproj": {
+                "projectPath": "C:\\Users\\ABDULLAH\\Source\\Repos\\crowd-check-static-working\\App1\\App1\\App1.csproj"
               }
             }
           }
@@ -54,14 +54,14 @@
         }
       }
     },
-    "C:\\Users\\ABDULLAH\\Source\\Repos\\App1\\App1\\App1\\App1.csproj": {
+    "C:\\Users\\ABDULLAH\\Source\\Repos\\crowd-check-static-working\\App1\\App1\\App1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ABDULLAH\\Source\\Repos\\App1\\App1\\App1\\App1.csproj",
+        "projectUniqueName": "C:\\Users\\ABDULLAH\\Source\\Repos\\crowd-check-static-working\\App1\\App1\\App1.csproj",
         "projectName": "App1",
-        "projectPath": "C:\\Users\\ABDULLAH\\Source\\Repos\\App1\\App1\\App1\\App1.csproj",
+        "projectPath": "C:\\Users\\ABDULLAH\\Source\\Repos\\crowd-check-static-working\\App1\\App1\\App1.csproj",
         "packagesPath": "C:\\Users\\ABDULLAH\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ABDULLAH\\Source\\Repos\\App1\\App1\\App1\\obj\\",
+        "outputPath": "C:\\Users\\ABDULLAH\\Source\\Repos\\crowd-check-static-working\\App1\\App1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -97,6 +97,10 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",

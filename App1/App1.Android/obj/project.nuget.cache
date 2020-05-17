@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "5gMmjTljzPCWctiqeF0Zj2SsmYqP9CwOVJaPFchNPOHtQhtU1A7lTLz7+aq85m8pBkglF+dzTsdOo6ZiE6unvg==",
+  "dgSpecHash": "OFRTzOSQiTWDsQ0c4qXdaz+pIgAqt4jF2D2dKRnUGXrhSgl/akuEcNIq3BIDqLOvr0VjyIZonZxpC7Arx0ztrg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ABDULLAH\\Source\\Repos\\App1\\App1\\App1.Android\\App1.Android.csproj",
+  "projectFilePath": "C:\\Users\\ABDULLAH\\Source\\Repos\\crowd-check-static-working\\App1\\App1.Android\\App1.Android.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ABDULLAH\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\ABDULLAH\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.core.common\\1.1.1.3\\xamarin.android.arch.core.common.1.1.1.3.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.core.runtime\\1.1.1.3\\xamarin.android.arch.core.runtime.1.1.1.3.nupkg.sha512",

@@ -13,8 +13,9 @@ namespace App1
         {
             InitializeComponent();
 
-            DependencyService.Register<MockDataStore>();
-            MainPage = new MainPage();
+           // DependencyService.Register<MockDataStore>();
+             MainPage = new MainPage();
+            
         }
 
         protected override void OnStart()

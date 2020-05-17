@@ -18,33 +18,57 @@ namespace App1.Views
     [DesignTimeVisible(false)]
     public partial class ItemsPage : ContentPage
     {
-        ItemsViewModel viewModel;
-
+        StoreListViewModel viewModel;
         public ItemsPage()
         {
             InitializeComponent();
-
-            BindingContext = viewModel = new ItemsViewModel();
+            BindingContext = viewModel = new StoreListViewModel();
         }
-
-        async void OnItemSelected(object sender, EventArgs args)
-        {
-            var layout = (BindableObject)sender;
-            var item = (Item)layout.BindingContext;
-            await Navigation.PushAsync(new ItemDetailPage(new ItemDetailViewModel(item)));
-        }
-
-        async void AddItem_Clicked(object sender, EventArgs e)
-        {
-            await Navigation.PushModalAsync(new NavigationPage(new NewItemPage()));
-        }
-
         protected override void OnAppearing()
         {
             base.OnAppearing();
 
-            if (viewModel.Items.Count == 0)
+            if (viewModel.stores.Count == 0)
                 viewModel.IsBusy = true;
         }
+
+        #region testing code
+        //        public async void btnGetLocationAsync(object sender, EventArgs e)
+        //        {
+        //            try
+        //            {
+        //                var locationManager = new LocationMonanager();
+        //#if DEBUG
+        //                var currentLocation = new Location(43.842330, -79.074900);
+        //#else
+        //                 var currentLocation = await locationManager.GetLocationCache();
+        //#endif
+
+        //                if (currentLocation.IsFromMockProvider)
+        //                {
+        //                    Console.WriteLine("This is a mock location");
+        //                }
+        //                var address = editor.Text;
+        //                var addressLocation = await locationManager.GetLocationByAddress(address);
+        //                double miles = Location.CalculateDistance(currentLocation, addressLocation, DistanceUnits.Kilometers);
+        //                Distance.Text = miles + "Miles";
+        //            }
+        //            catch (Exception ex)
+        //            {
+        //                Console.WriteLine(ex.Message); 
+        //            }
+        //        }
+
+
+        //        public async void btnAddAsync(object sender, EventArgs e)
+        //        {
+        //            await Navigation.PushAsync(new AddFeedBack());
+        //        }
+
+        //        public async void btnCheckAsync(object sender, EventArgs e)
+        //        {
+        //            await Navigation.PushAsync(new Check());
+        //        }
+        #endregion
     }
 }

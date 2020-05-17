@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "hadkB8fqoEbYQSltr2YBOiIrk69Xult0r6UWHwv+JPL0bnNqsomTXqj9mFqaGX9/dBkL45iY8Cznqz0xNFFt+Q==",
+  "dgSpecHash": "ZJVeJ19MlKj4jGH+zhi6YDzfMoTfTsQ9ZQxmKpvOKW48//vsO1Kc43WFzpaLzYnxHTDaiqRaESBD13/zbRKgGw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ABDULLAH\\Source\\Repos\\App1\\App1\\App1\\App1.csproj",
+  "projectFilePath": "C:\\Users\\ABDULLAH\\Source\\Repos\\crowd-check-static-working\\App1\\App1\\App1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ABDULLAH\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\ABDULLAH\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\ABDULLAH\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\ABDULLAH\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.3.1\\xamarin.essentials.1.3.1.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.4.0.991265\\xamarin.forms.4.4.0.991265.nupkg.sha512"
