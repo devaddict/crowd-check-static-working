@@ -2,13 +2,10 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
-
+using System.Text;
 using Xamarin.Forms;
 
-using App1.Models;
-using App1.Services;
-
-namespace App1.ViewModels
+namespace Futuristic.ViewModel
 {
     public class BaseViewModel : INotifyPropertyChanged
     {

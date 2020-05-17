@@ -10,6 +10,7 @@ using Xamarin.Forms.Xaml;
 using App1.Models;
 using App1.Views;
 using App1.ViewModels;
+using MobileApp1.ViewModel;
 
 namespace App1.Views
 {

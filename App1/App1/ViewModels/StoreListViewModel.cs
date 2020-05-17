@@ -1,5 +1,6 @@
 ﻿using App1.Models;
 using App1.Services;
+using Futuristic.ViewModel;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -9,7 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 
-namespace App1.ViewModels
+namespace MobileApp1.ViewModel
 {
     public class StoreListViewModel : BaseViewModel
     {
@@ -50,5 +51,4 @@ namespace App1.ViewModels
         }
 
     }
-
 }

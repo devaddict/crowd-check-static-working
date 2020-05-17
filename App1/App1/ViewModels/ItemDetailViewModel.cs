@@ -1,6 +1,7 @@
 ﻿using System;
 
 using App1.Models;
+using Futuristic.ViewModel;
 
 namespace App1.ViewModels
 {

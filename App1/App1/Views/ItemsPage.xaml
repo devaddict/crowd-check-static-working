@@ -44,6 +44,6 @@
                 </CollectionView.ItemTemplate>
             </CollectionView>
         </RefreshView>
-        <Label x:Name="a1222" Text="hselvvcc23rqwvclo"></Label>
+        
     </StackLayout>
 </ContentPage>
